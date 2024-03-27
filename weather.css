@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("city.png");
+    background-size: cover;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+}
+
+.searchbar{
+    border: none;
+    border-radius: 15px;
+    padding: 14px;
+    background-color: rgba(103, 36, 226, 0.877);
+    font-size: 15px;
+    margin: 4px;
+}
+
+.btn{
+    border: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.card{
+    background-color: #6363c9c4;
+    width: 100%;
+    max-width: 420px;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.heading{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.temp{
+    font-size: 2em;
+}
+
+.info{
+    font-size: 1.5em;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
